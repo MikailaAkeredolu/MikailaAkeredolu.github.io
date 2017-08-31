@@ -1,0 +1,161 @@
+body{
+	border: 10px solid gray;
+	box-shadow: 10px 10px 5px #000;
+	max-width: 800px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+header p{
+	text-align: center;
+	font-weight: bold;
+}
+
+#email a{
+	text-decoration: none;
+
+}
+
+#italic{
+	font-style: cursive;
+}
+
+#profilepic{
+	border: solid 10px gray;
+	width: 150px;
+	height: 150px;
+	border-radius: 20%;
+	background-image: url(../img/mikailabwpic.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	max-width: 100%;
+	transition-property: transform;
+	transition-duration: .3s;
+	transition-delay: .2s;
+}
+
+#profilepic:hover{
+	transform: rotate(1turn);
+}
+
+.h3titles{
+	text-align: left;
+	text-decoration: none;
+	padding-top: 0px; 
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+span{
+	font-weight: bold;
+}
+
+#nobullets{
+	list-style-type: none;
+	padding-top: 0px; 
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+#devp{
+	padding-top: 0px; 
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+
+h1{
+	color: gray;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 1px 2px 0 black;
+	margin-bottom: 10px;
+}
+
+#slant{
+	text-align: center;
+
+}
+
+h2{
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#main-footer{
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+	background-color: gray;
+}
+
+#profile{
+	padding-top: 0px; 
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+#neg{
+	margin-top: 1px;
+	padding-left: 20px;
+}
+
+hr{
+	max-width: 800px;
+	width: 80%;
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a{
+	color:black;
+}
+
+a:hover{
+color:forestgreen;
+}
+#icons{
+	width: 195px;
+	margin: 0 auto;
+}
+
+#logo1{
+float: left;
+}
+
+#logo2{
+	float: left;
+}
+#logo3{
+	float: left;
+}
+
+
+
+
+/*@media(max-width: 480px){
+	body{
+	padding-top: 0px; 
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	}
+
+}*/
