@@ -21,10 +21,10 @@ header p{
 }
 
 #profilepic{
-	border: solid 10px gray;
+	border: solid 5px gray;
 	width: 150px;
 	height: 150px;
-	border-radius: 20%;
+	border-radius: 50%;
 	background-image: url(../img/mikailabwpic.jpg);
 	background-size: cover;
 	background-position: center;
@@ -33,6 +33,7 @@ header p{
 	transition-property: transform;
 	transition-duration: .3s;
 	transition-delay: .2s;
+
 }
 
 #profilepic:hover{
@@ -159,7 +160,7 @@ float: left;
 		padding-right: 20px;
 	}*/
 
-	@media(min-width: 320px) {
+	@media(min-width: 320px) and (max-width: 480px){
 
   	#experience li{
 	padding-right: 10px;
@@ -169,6 +170,14 @@ float: left;
   	body{
   		box-shadow: none;
   		width: 90%;
+
+  	}
+
+  	#profilepic{
+  	border: solid 5px gray;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
   	}
   
 }
