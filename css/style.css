@@ -126,11 +126,11 @@ hr{
 }
 
 a{
-	color:black;
+	color: white;
 }
 
 a:hover{
-color:forestgreen;
+color:black;
 }
 #icons{
 	width: 195px;
@@ -147,6 +147,7 @@ float: left;
 #logo3{
 	float: left;
 }
+
 
 
 
