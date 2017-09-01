@@ -1,6 +1,6 @@
 body{
 	border: 10px solid gray;
-	box-shadow: 10px 10px 5px #000;
+	box-shadow: 15px 15px 10px #222;
 	max-width: 800px;
 	width: 80%;
 	margin: 0 auto;
@@ -25,7 +25,7 @@ header p{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background-image: url(../img/mikailabwpic.jpg);
+	background-image: url(../img/edited.jpg);
 	background-size: cover;
 	background-position: center;
 	margin: 0 auto;
@@ -79,6 +79,7 @@ h1{
 	font-family: 'Pacifico', cursive;
 	text-shadow: 1px 2px 0 black;
 	margin-bottom: 10px;
+
 }
 
 #slant{
@@ -107,6 +108,7 @@ h3{
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-bottom: 0px;
+
 }
 
 #neg{
@@ -144,23 +146,6 @@ float: left;
 #logo3{
 	float: left;
 }
-
-
-
-
-/*@media(max-width: 320px){
-
-	body{
-		width: 80%;
-		margin: 0 auto;
-		background-color: yellow;
-
-	}
-
-	li{
-		width: 80%;
-		padding-right: 20px;
-	}*/
 
 	@media(min-width: 320px) and (max-width: 480px){
 
