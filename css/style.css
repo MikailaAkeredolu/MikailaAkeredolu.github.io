@@ -25,9 +25,10 @@ header p{
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	background-image: url(../img/edited.jpg);
+	background-image: url(../img/mikailabwpic.jpg);
 	background-size: cover;
-	background-position: center;
+	/*background-position: center;*/
+	background-position: right -21px top 0px;
 	margin: 0 auto;
 	max-width: 100%;
 	transition-property: transform;
@@ -146,6 +147,8 @@ float: left;
 #logo3{
 	float: left;
 }
+
+
 
 	@media(min-width: 320px) and (max-width: 480px){
 
