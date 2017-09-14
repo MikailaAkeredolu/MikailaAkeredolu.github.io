@@ -11,6 +11,10 @@ header p{
 	font-weight: bold;
 }
 
+#icons{
+	margin: 0 auto;
+}
+
 #email a{
 	text-decoration: none;
 
